@@ -1,4 +1,4 @@
-var buttons = document.querySelectorAll("button");
+var buttons = document.querySelectorAll("#div button");
 var resetButton = document.querySelector("#resetButton");
 var lastClick = "O";
 var startingBoard = $("#div").html();
