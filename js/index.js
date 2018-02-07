@@ -48,7 +48,7 @@ for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", changeButton);
 }
 
-function resetBoard(){
+function resetBoard() {
  $("#div").html(startingBoard);
 
   buttons = document.querySelectorAll("#div button");
