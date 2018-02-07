@@ -1,7 +1,7 @@
 var buttons = document.querySelectorAll("button");
-//var resetButton = document.querySelectorAll("#resetButton");
+var resetButton = document.querySelectorAll("#resetButton");
 var lastClick = "O";
-//var startingBoard = $("#div").html();
+var startingBoard = $("#div").html();
 
 function changeButton(event) {
   if (lastClick === "O") {
@@ -48,8 +48,8 @@ for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", changeButton);
 }
 
-//function resetBoard(){
-//  $("#div").html(startingBoard);
-//}
-//
-//resetbutton.addEventListener("click", resetBoard);
+function resetBoard(){
+ $("#div").html(startingBoard);
+}
+
+resetbutton.addEventListener("click", resetBoard);
