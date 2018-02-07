@@ -50,6 +50,13 @@ for (var i = 0; i < buttons.length; i++) {
 
 function resetBoard(){
  $("#div").html(startingBoard);
+
+  buttons = document.querySelectorAll("#div button");
+  lastClick = "O";
+
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", changeButton);
+  }
 }
 
 resetButton.addEventListener("click", resetBoard);
