@@ -2,4 +2,20 @@
   display: grid;
   grid-template-columns: repeat(3, 200px);
   grid-template-rows: repeat(3, 200px);
+  text-align: center;
+}
+
+button {
+  font-size: 0px;
+}
+
+button:hover {
+  border: solid 1px;
+}
+
+#resetButton {
+  font-size: 20px;
+  position: absolute;
+  left: 32em;
+  bottom: 15em;
 }
