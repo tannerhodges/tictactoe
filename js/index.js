@@ -52,4 +52,4 @@ function resetBoard(){
  $("#div").html(startingBoard);
 }
 
-resetbutton.addEventListener("click", resetBoard);
+resetButton.addEventListener("click", resetBoard);
